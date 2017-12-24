@@ -35,6 +35,8 @@
             this.Apagado = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.Reinicio = new System.Windows.Forms.Button();
+            this.Cancelar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelH
@@ -42,12 +44,12 @@
             this.labelH.AutoSize = true;
             this.labelH.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelH.ForeColor = System.Drawing.Color.Snow;
-            this.labelH.Location = new System.Drawing.Point(190, 25);
+            this.labelH.Location = new System.Drawing.Point(163, 23);
             this.labelH.Name = "labelH";
-            this.labelH.Size = new System.Drawing.Size(331, 20);
+            this.labelH.Size = new System.Drawing.Size(391, 20);
             this.labelH.TabIndex = 0;
             this.labelH.Tag = "labelH";
-            this.labelH.Text = "Indica el tiempo para el Apagado programado\r\n";
+            this.labelH.Text = "Indica el tiempo para el Apagado/Reinicio programado\r\n";
             this.labelH.Click += new System.EventHandler(this.label1_Click);
             // 
             // horas
@@ -94,7 +96,7 @@
             this.Apagado.FlatAppearance.BorderSize = 0;
             this.Apagado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Apagado.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Apagado.Location = new System.Drawing.Point(299, 193);
+            this.Apagado.Location = new System.Drawing.Point(29, 196);
             this.Apagado.Name = "Apagado";
             this.Apagado.Size = new System.Drawing.Size(96, 36);
             this.Apagado.TabIndex = 6;
@@ -125,12 +127,48 @@
             this.label2.TabIndex = 8;
             this.label2.Text = ":";
             // 
+            // Reinicio
+            // 
+            this.Reinicio.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Reinicio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Reinicio.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Reinicio.FlatAppearance.BorderSize = 0;
+            this.Reinicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reinicio.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Reinicio.Location = new System.Drawing.Point(156, 196);
+            this.Reinicio.Name = "Reinicio";
+            this.Reinicio.Size = new System.Drawing.Size(96, 36);
+            this.Reinicio.TabIndex = 9;
+            this.Reinicio.Tag = "Reinicio";
+            this.Reinicio.Text = "Reinicio";
+            this.Reinicio.UseVisualStyleBackColor = false;
+            this.Reinicio.Click += new System.EventHandler(this.Reinicio_Click);
+            // 
+            // Cancelar
+            // 
+            this.Cancelar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Cancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Cancelar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Cancelar.FlatAppearance.BorderSize = 0;
+            this.Cancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cancelar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Cancelar.Location = new System.Drawing.Point(557, 196);
+            this.Cancelar.Name = "Cancelar";
+            this.Cancelar.Size = new System.Drawing.Size(96, 36);
+            this.Cancelar.TabIndex = 10;
+            this.Cancelar.Tag = "Cancelar";
+            this.Cancelar.Text = "Cancelar";
+            this.Cancelar.UseVisualStyleBackColor = false;
+            this.Cancelar.Click += new System.EventHandler(this.Cancelar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(684, 278);
+            this.ClientSize = new System.Drawing.Size(684, 255);
+            this.Controls.Add(this.Cancelar);
+            this.Controls.Add(this.Reinicio);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Apagado);
@@ -154,6 +192,8 @@
         private System.Windows.Forms.Button Apagado;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button Reinicio;
+        private System.Windows.Forms.Button Cancelar;
     }
 }
 

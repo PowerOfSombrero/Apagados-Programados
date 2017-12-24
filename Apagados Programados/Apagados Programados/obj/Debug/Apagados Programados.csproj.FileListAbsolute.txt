@@ -1,0 +1,10 @@
+F:\VS PROJECTS\Apagados Programados\Apagados Programados\bin\Debug\Apagados Programados.exe.config
+F:\VS PROJECTS\Apagados Programados\Apagados Programados\bin\Debug\Apagados Programados.exe
+F:\VS PROJECTS\Apagados Programados\Apagados Programados\bin\Debug\Apagados Programados.pdb
+F:\VS PROJECTS\Apagados Programados\Apagados Programados\obj\Debug\Apagados Programados.csprojResolveAssemblyReference.cache
+F:\VS PROJECTS\Apagados Programados\Apagados Programados\obj\Debug\Apagados_Programados.Form1.resources
+F:\VS PROJECTS\Apagados Programados\Apagados Programados\obj\Debug\Apagados_Programados.Properties.Resources.resources
+F:\VS PROJECTS\Apagados Programados\Apagados Programados\obj\Debug\Apagados Programados.csproj.GenerateResource.Cache
+F:\VS PROJECTS\Apagados Programados\Apagados Programados\obj\Debug\Apagados Programados.csproj.CoreCompileInputs.cache
+F:\VS PROJECTS\Apagados Programados\Apagados Programados\obj\Debug\Apagados Programados.exe
+F:\VS PROJECTS\Apagados Programados\Apagados Programados\obj\Debug\Apagados Programados.pdb
